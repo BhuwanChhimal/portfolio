@@ -27,7 +27,7 @@ const Hero = () => {
                     className='text-center md:text-5xl text-[40px] lg:text-7xl'
                     words='Transforming Concepts into Seamless Experiences'
                 />
-                <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>I&apos;m Bhuwan, a Web Developer currently just a student.</p>
+                <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>I&apos;m Bhuwan, a Web Developer.</p>
 
                 <a href="#about">
                     <MagicButton

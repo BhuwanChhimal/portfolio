@@ -28,8 +28,8 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "My tech stack",
-      description: "I constantly try to improve",
+      title: "MERN",
+      description: "My tech stack",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",
@@ -49,12 +49,12 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
-      description: "The Inside Scoop",
+      title: "Currently building 'Guess The Anime Character '",
+      description: "A game like web-app",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
-      img: "/b5.svg",
+      img: "/recent-project.png",
       spareImg: "/grid.svg",
     },
     {
@@ -72,35 +72,35 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
+      title: "Bookdom",
+      des: "An ecommerce platform for online bookstore.",
+      img: "/bookdom.png",
+      iconLists: ["/re.svg", "/tail.svg", "/js.svg","/mongo.svg","/express.svg"],
+      link: "https://github.com/BhuwanChhimal/Bookdom.np",
+    },
+    {
+      id: 2,
+      title: "E-Nepal",
+      des: "A one stop solution all Nepal government services",
+      img: "/e-nepal.png",
+      iconLists: ["/re.svg", "/tail.svg", "/js.svg","/mongo.svg","/express.svg"],
+      link: "https://github.com/BhuwanChhimal/E-Nepal",
+    },
+    {
+      id: 1,
       title: "ShareMe",
       des: "Share pictures you love of various categories with your friends",
       img: "/shareMe.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      iconLists: ["/re.svg", "/tail.svg", "/js.svg","/sanity.svg"],
       link: "https://shareme-bhc.netlify.app/",
     },
     {
       id: 2,
-      title: "Yotube Clone",
-      des: "A fully functional youtube clone made using api privileges of youtube",
-      img: "/bhcTube.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://bhc-media-tube.netlify.app/",
-    },
-    {
-      id: 3,
-      title: "Dashboard Web-App",
-      des: "Next gen advanved dashboard web application to track your required data",
-      img: "/dashboard.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/BhuwanChhimal/dashboard",
-    },
-    {
-      id: 4,
-      title: "Random Image Generator",
-      des: "Generate Random images with personal prompt and share in community among friends",
-      img: "/imgGenerator.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      title: "Wearables X",
+      des: "An ecommerce site for best audio wearables",
+      img: "/wearables.png",
+      iconLists: ["/re.svg", "/tail.svg", "/js.svg","/sanity.svg"],
+      link: "https://baai-verse.vercel.app/",
     },
   ];
   
@@ -209,11 +209,6 @@ export const navItems = [
     },
     {
       id: 2,
-      img: "/facebook.png",
-      link: "https://www.facebook.com/clasher.bhuwan.7/"
-    },
-    {
-      id: 3,
       img: "/link.svg",
       link: "https://www.linkedin.com/in/bhuwan-chhimal-552872261/"
     },

@@ -19,8 +19,7 @@ const RecentProjects = () => {
             key={item.id}
           >
             <PinContainer
-              title="/ui.aceternity.com"
-              href="https://www.facebook.com/clasher.bhuwan.7/"
+          
             >
               <div className="relative flex items-center justify-center sm:w-[570px] sm:h-[40vh] h-[30vh] w-[80vw] overflow-hidden mb-10">
                 <div
@@ -65,9 +64,9 @@ const RecentProjects = () => {
                   ))}
                 </div>
 
-                <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    <a target="/blank" href={item.link}> Check Live Site </a>
+                <div className="flex justify-center items-center hover:scale-105 border-2 rounded-xl p-1">
+                  <p className="flex lg:text-xl md:text-xs text-sm text-purple  hover:text-violet-400">
+                    <a target="/blank" href={item.link}> Link </a>
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
