@@ -8,7 +8,7 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
+      title: "I work closely with clients to bring ideas to life, ensuring smooth communication and clean, efficient code.",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
@@ -38,7 +38,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Tech enthusiast with a passion for development.",
+      title: "Hi, I’m Bhuwan, a Full Stack Web Developer from Nepal ,crafting sleek, user friendly web apps.",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -50,16 +50,16 @@ export const navItems = [
     {
       id: 5,
       title: "Currently building 'Guess The Anime Character '",
-      description: "A game like web-app",
+      description: "—a Wordle-style game using React, TypeScript & MongoDB. Stay tuned!",
       className: "md:col-span-3 md:row-span-2",
-      imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+      imgClassName: "absolute right-0 bottom-0 md:w-[70%] w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
       img: "/recent-project.webp",
       spareImg: "/grid.svg",
     },
     {
       id: 6,
-      title: "Do you want to start a project together?",
+      title: "Need a developer who loves problem-solving? Let’s create something awesome—reach out!",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
