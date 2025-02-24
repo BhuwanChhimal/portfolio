@@ -59,7 +59,7 @@ export const navItems = [
     },
     {
       id: 6,
-      title: "Need a developer who loves problem-solving? Let’s create something awesome—reach out!",
+      title: "Need a problem solving developer? Let’s create something awesome—reach out!",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",

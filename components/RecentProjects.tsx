@@ -64,11 +64,11 @@ const RecentProjects = () => {
                   ))}
                 </div>
 
-                <div className="flex justify-center items-center hover:scale-105 border-2 rounded-xl p-1">
+                <div className="flex justify-center items-center hover:scale-105 border-2 rounded-full p-2">
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple  hover:text-violet-400">
                     <a target="/blank" href={item.link}> Link </a>
                   </p>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
+                  <FaLocationArrow className="ms-3" color="#CBACF9" size={20}/>
                 </div>
               </div>
             </PinContainer>
