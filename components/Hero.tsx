@@ -7,7 +7,9 @@ import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
 import { RxDownload } from "react-icons/rx";
 import { FaCheck } from "react-icons/fa";
-import { BiLoaderAlt } from "react-icons/bi"; 
+import { BiLoaderAlt } from "react-icons/bi";
+import { socialMedia } from "@/data";
+import Image from "next/image";
 
 const Hero = () => {
   const resumeUrl =
@@ -55,6 +57,19 @@ const Hero = () => {
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             I&apos;m Bhuwan, a Web Developer.
           </p>
+          <div className="flex items-center gap-4 md:gap-6 mb-4 md:mb-0">
+            {socialMedia.map((info) => (
+              <div
+                key={info.id}
+                className="w-35 p-2 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
+              >
+                <a href={info.link} target="_blank" className="flex gap-2">
+                  <p className="text-purple">{info.name}</p>
+                  <Image src={info.img} alt="icons" width={20} height={20} />
+                </a>
+              </div>
+            ))}
+          </div>
           <div className="flex gap-4">
             <a href="#projects">
               <MagicButton

@@ -205,11 +205,13 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      name:"GitHub",
       link: "https://github.com/BhuwanChhimal"
     },
     {
       id: 2,
       img: "/link.svg",
+      name:"Linkedin",
       link: "https://www.linkedin.com/in/bhuwan-chhimal-552872261/"
     },
   ];
