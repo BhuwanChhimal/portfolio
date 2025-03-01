@@ -57,7 +57,7 @@ const Hero = () => {
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             I&apos;m Bhuwan, a Web Developer.
           </p>
-          <div className="flex items-center gap-4 md:gap-6 mb-4 md:mb-0">
+          {/* <div className="flex items-center gap-4 md:gap-6 mb-4 md:mb-0">
             {socialMedia.map((info) => (
               <div
                 key={info.id}
@@ -69,7 +69,7 @@ const Hero = () => {
                 </a>
               </div>
             ))}
-          </div>
+          </div> */}
           <div className="flex gap-4">
             <a href="#projects">
               <MagicButton
