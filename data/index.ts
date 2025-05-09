@@ -72,6 +72,14 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
+      title: "Chatify",
+      des: "A online web chat-application to have fun converstation with your friends.",
+      img: "/chatify.webp",
+      iconLists: ["/re.svg", "/tail.svg", "/js.svg","/mongo.svg","/express.svg"],
+      link: "https://chatify-fk94.onrender.com",
+    },
+    {
+      id: 1,
       title: "Bookdom",
       des: "An ecommerce platform for online bookstore.",
       img: "/bookdom.webp",
