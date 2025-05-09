@@ -71,7 +71,15 @@ export const navItems = [
   
   export const projects = [
         {
-      id: 0,
+      id: 1,
+      title: "Guess the anime character",
+      des: "A fun game where you have to correctly guess the anime character.",
+      img: "/gtac.webp",
+      iconLists: ["/re.svg", "/tail.svg", "/js.svg","/mongo.svg","/express.svg"],
+      link: "https://chatify-fk94.onrender.com",
+    },
+        {
+      id: 2,
       title: "Chatify",
       des: "A online web chat-application to have fun converstation with your friends.",
       img: "/chatify.webp",
