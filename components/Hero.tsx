@@ -13,7 +13,7 @@ import Image from "next/image";
 
 const Hero = () => {
   const resumeUrl =
-    "https://drive.google.com/uc?export=download&id=1u-7XOUDuXPJzSPYompbXmMQWXtHMz66F";
+    "https://drive.google.com/uc?export=download&id=1R9fZvcUfJ9EP1YDxSF2fTnx_3DyfEAVj";
   const [downloaded, setDownloaded] = useState(false);
   const [isDownloading, setIsDownloading] = useState(false);
 
@@ -107,3 +107,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
