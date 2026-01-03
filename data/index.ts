@@ -71,7 +71,7 @@ export const navItems = [
   
   export const projects = [
     {
-      id: 1,
+      id: 0,
       title: "Chatify",
       des: "A online web chat-application to have fun converstation with your friends.",
       img: "/chatify.webp",
